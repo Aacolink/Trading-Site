@@ -1,0 +1,158 @@
+:root {
+    --logo-green: #149f00;
+    --dark-green: #1a7b30;
+    --light-gr: #3aab58;
+    --mid-gr: #1b842c;
+    --dark-gr: #046306;
+    --ex-dark-gr: #034a04;
+    --gray: #f6f6f6;
+    --tag-blue: #d4e4fa;
+    --tag-blue-text: #1654a9;
+    --tag-red: #fadcd9;
+    --tag-red-text: #a1170b;
+    --tag-green: #c7ebd1;
+    --tag-green-text: #0b6148;
+    --tag-purple: #eadcfc;
+    --tag-purple-text: #6e35ad;
+    --tag-yellow: #faf6cf;
+    --tag-yellow-text: #2b3840;
+    --tag-gray: #5b7282;
+    --tag-gray-text: white;
+    --tag-light-blue: #beebe7;
+    --tag-light-blue-text: #236869;
+}
+
+html {
+    font-size: calc(60% + 0.8vmin);
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("./font/poppins-regular-webfont.woff2") format("woff2");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Poppins-light';
+    src: url("./font/poppins-light-webfont.woff2") format("woff2");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url("./font/poppins-semibold-webfont.woff2") format("woff2");
+    font-display: fallback;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #272D38;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins-bold', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a,
+router-link,
+span,
+p,
+input,
+button,
+label {
+    font-size: 1.35rem;
+}
+
+a,
+router-link {
+    text-decoration: none;
+}
+
+hr {
+    height: 5px;
+    background-color: var(--logo-green);
+    width: 5rem;
+    margin: 1rem auto 2rem auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.divider {
+    border: none;
+    background-color: var(--logo-green);
+    width: 100%;
+    height: 1px;
+    margin: 0.5rem 0;
+}
+
+.btns:hover {
+    filter: brightness(70%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btns:active {
+    filter: brightness(100%);
+}
+
+.sect {
+    padding: 5rem 0 10rem 0;
+}
+
+.sect-title {
+    text-align: center;
+    font-size: 2.3rem;
+    line-height: 3rem;
+}
+
+.viewTop {
+    padding-top: 8.5rem;
+}
+
+.fa-solid {
+    color: var(--logo-green);
+}
+
+@media screen and (min-width: 768px) {
+
+    a,
+    router-link,
+    span,
+    p,
+    input,
+    button,
+    label {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    a:hover,
+    router-link:hover {
+        text-decoration: underline;
+    }
+
+    a:active,
+    router-link:active {
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .sect {
+        padding-bottom: 13rem;
+    }
+}
