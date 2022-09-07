@@ -115,13 +115,24 @@ export default {
 <style>
 #hero {
   text-align: center;
+  padding: 13rem 0;
+}
+
+#hero:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
   background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5)),
     url("@/assets/trading-home-img-lg.jpg");
-  background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
   background-size: cover;
-  padding: 13rem 0;
 }
 
 #hero-content-container {
