@@ -128,7 +128,7 @@ export default {
   height: 100%;
   z-index: -10;
   background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5)),
-    url("@/assets/trading-home-img-lg.jpg");
+    url("@/assets/trading-home-img-mobile.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -262,6 +262,11 @@ export default {
 }
 
 @media screen and (min-width: 1024px) {
+  #hero::before {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5)),
+      url("@/assets/trading-home-img-lg.jpg");
+  }
+
   #product-banner-container {
     padding-top: 8rem;
     padding-bottom: 15rem;
