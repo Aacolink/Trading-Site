@@ -267,7 +267,12 @@ export default {
       url("@/assets/trading-home-img-lg.jpg");
   }
 
+  #mission-container {
+    padding-bottom: 15rem;
+  }
+
   #product-banner-container {
+    margin-top: -8rem;
     padding-top: 8rem;
     padding-bottom: 15rem;
   }
@@ -301,7 +306,12 @@ export default {
     font-size: 1.25rem;
   }
 
+  #mission-container {
+    padding-bottom: 20rem;
+  }
+
   #product-banner-container {
+    margin-top: -12rem;
     padding-bottom: 25rem;
   }
 
