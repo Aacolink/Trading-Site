@@ -72,7 +72,7 @@
         placeholder="How can we help?"
       ></textarea>
     </label>
-    <button id="submit-btn" type="submit" :disabled="disableBtn">
+    <button id="submit-btn" class="btns" type="submit" :disabled="disableBtn">
       Send Message
     </button>
     <p :class="`submit-status submitting ${isSending}`" v-if="status === 0">
