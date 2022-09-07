@@ -202,8 +202,11 @@ export default {
         if (window.scrollY === 0) {
           document.querySelector("nav").style = "";
 
-          const pathName = window.location.pathname;
-          if (window.screen.width >= 1024 && pathName.length === 1) {
+          if (
+            window.screen.width >= 1024 &&
+            route.name &&
+            route.name === "home"
+          ) {
             changeMenuItemColor("white");
           }
         } else {
