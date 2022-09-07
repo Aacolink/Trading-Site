@@ -88,7 +88,7 @@
     <h3>Contact Email:</h3>
     <div class="contact-info">
       <i class="fa-solid fa-envelope"></i>
-      <p>trading@aacolink.com</p>
+      <p>marketing@aacolink.com</p>
     </div>
   </form>
 </template>

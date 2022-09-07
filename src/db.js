@@ -1207,35 +1207,35 @@ const products = {
          name: 'Matching Lids',
          items: {
             lid1: {
-               name: 'YS-C95',
+               name: 'A-YS-C95',
                material: ['PP'],
                size: '95mm',
                quantity: 1000,
                img: 'hotBowl/YS-C95.jpg'
             },
             lid2: {
-               name: 'YS-120',
+               name: 'A-YS-120',
                material: ['PP'],
                size: '120mm',
                quantity: 1000,
                img: 'hotBowl/YS-120.jpg'
             },
             lid3: {
-               name: 'YS-142',
+               name: 'A-YS-142',
                material: ['PP'],
                size: '142mm',
                quantity: 600,
                img: 'hotBowl/YS-142.jpg'
             },
             lid4: {
-               name: 'IL-179',
+               name: 'A-IL-179',
                material: ['PP'],
                size: '179mm',
                quantity: 300,
                img: 'hotBowl/IL-179.jpg'
             },
             lid5: {
-               name: 'IL-1200',
+               name: 'A-IL-1200',
                material: ['PP'],
                size: '197mm',
                quantity: 300,
@@ -1324,63 +1324,63 @@ const products = {
          name: 'PLA Tray',
          items: {
             tray1: {
-               name: 'YS-504',
+               name: 'A-YS-504',
                material: ['PLA'],
                size: 'L:114mm, W:114mm, H:28mm',
                quantity: 1000,
                img: 'freshTray/YS-504.jpg'
             },
             tray2: {
-               name: 'YS-12',
+               name: 'A-YS-12',
                material: ['PLA'],
                size: 'L:193mm, W:127mm, H:12mm',
                quantity: 1000,
                img: 'freshTray/YS-12.jpg'
             },
             tray3: {
-               name: 'YS-16',
+               name: 'A-YS-16',
                material: ['PLA'],
                size: 'L:214mm, W:148mm, H:17mm',
                quantity: 1000,
                img: 'freshTray/YS-16.jpg'
             },
             tray4: {
-               name: 'YS-25',
+               name: 'A-YS-25',
                material: ['PLA'],
                size: 'L:152mm, W:121mm, H:33mm',
                quantity: 1000,
                img: 'freshTray/YS-25.jpg'
             },
             tray5: {
-               name: 'YS-26',
+               name: 'A-YS-26',
                material: ['PLA'],
                size: 'L:186mm, W:120mm, H:28mm',
                quantity: 1000,
                img: 'freshTray/YS-26.jpg'
             },
             tray6: {
-               name: 'YS-27',
+               name: 'A-YS-27',
                material: ['PLA'],
                size: 'L:193mm, W:152mm, H:32mm',
                quantity: 1000,
                img: 'freshTray/YS-27.jpg'
             },
             tray7: {
-               name: 'YS-28',
+               name: 'A-YS-28',
                material: ['PLA'],
                size: 'L:230mm, W:145mm, H:32mm',
                quantity: 1000,
                img: 'freshTray/YS-28.jpg'
             },
             tray8: {
-               name: 'YS-64',
+               name: 'A-YS-64',
                material: ['PLA'],
                size: 'L:215mm, W:138mm, H:27mm',
                quantity: 1000,
                img: 'freshTray/YS-64.jpg'
             },
             tray9: {
-               name: 'YS-65',
+               name: 'A-YS-65',
                material: ['PLA'],
                size: 'L:242mm, W:182mm, H:28mm',
                quantity: 600,
@@ -1436,7 +1436,7 @@ const products = {
                img: 'eco/Knife&Fork&Spoon.jpg'
             },
             item8: {
-               name: 'YS Spoon',
+               name: 'A-YS Spoon',
                material: ['PS'],
                size: 'L:120mm, W:40mm, H:15mm',
                quantity: 5400,
@@ -1457,14 +1457,14 @@ const products = {
                img: 'others/PP flat spoon.jpg'
             },
             item13: {
-               name: 'YS-402 Cups Holder',
+               name: 'A-YS-402 Cups Holder',
                material: ['PP'],
                size: 'L:176mm, W:176mm, H:45mm',
                quantity: 1000,
                img: 'others/YS-402 Cups Holder.jpg'
             },
             item14: {
-               name: 'YS141 Sauce Dish',
+               name: 'A-YS141 Sauce Dish',
                material: ['PP'],
                size: 'ø75mm x18mm',
                quantity: 8000,

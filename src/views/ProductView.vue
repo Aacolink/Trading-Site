@@ -189,6 +189,7 @@ export default {
   border-radius: 20px;
   padding: 0.25rem 0.5rem;
   border: 2px solid var(--logo-green);
+  font-size: 1.5rem;
 }
 
 .category {
@@ -297,8 +298,8 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.125rem;
-  height: 3.125rem;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
   border: 1px solid var(--ex-dark-gr);
   background-color: white;
