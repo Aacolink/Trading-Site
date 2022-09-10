@@ -22,29 +22,6 @@
         <h2 class="sect-title">Our Mission</h2>
         <hr />
         <p id="mission-text">
-          To be Globally recognized import - export company that put quality,
-          service, and value as priority to satisfy the needs of our customers,
-          employees and stakeholders. Mission:
-          <span class="gr-text"
-            >To offer our customers products with superior quality and
-            value.</span
-          >
-          <br />
-          <br />
-          Helping Businesses Grow By Encouragement, Strategies, Mentoring &amp;
-          Leadership Development. Strengthen Businesses To Become Healthy &amp;
-          Effective.
-          <br />
-          <br />
-          A unified company committed to creating trust, understanding and
-          well-being among its members by fully utilizing their diversities and
-          talents. Discover our dream of creating a better world for doing
-          <span class="gr-text">business cross border</span> with our mission to
-          overcome the boundaries of doing business international. Get
-          introduced to the right people, and connect with potential business
-          partners and clients by participating in a trade mission or event.
-          <br />
-          <br />
           The mission of Aacolink Corporation is to be the
           <span class="gr-text"
             >trusted global provider of reliable and manufacturing services and
@@ -52,11 +29,14 @@
           >
           to US companies using advanced technology developed and reliable
           quality through close collaboration with our customers and other
-          supply chain partners.
-          <br />
-          <br />
-          Establish the stable and long term cross boarder partnership as a
-          family team.
+          supply chain partners. A unified company committed to creating trust,
+          understanding and well-being among its members by fully utilizing
+          their diversities and talents. Discover our dream of creating a better
+          world for doing business cross border with our mission to overcome the
+          boundaries of doing business international. Get introduced to the
+          right people, and connect with potential business partners and clients
+          by participating in a trade mission or event. Establish the stable and
+          long term cross boarder partnership as a family team.
         </p>
       </div>
     </section>
@@ -262,6 +242,10 @@ export default {
 }
 
 @media screen and (min-width: 1024px) {
+  #hero {
+    padding-top: 10rem;
+  }
+
   #hero::before {
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5)),
       url("@/assets/trading-home-img-lg.jpg");
