@@ -327,7 +327,7 @@ export default {
   }
 
   #type-select {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
