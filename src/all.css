@@ -5,7 +5,8 @@
     --mid-gr: #1b842c;
     --dark-gr: #046306;
     --ex-dark-gr: #034a04;
-    --gray: #f6f6f6;
+    /* --gray: #f6f6f6; */
+    --gray: #e5e5e5;
     --tag-blue: #d4e4fa;
     --tag-blue-text: #1654a9;
     --tag-red: #fadcd9;
@@ -93,7 +94,7 @@ hr {
     border: none;
     background-color: var(--logo-green);
     width: 100%;
-    height: 1px;
+    height: 2px;
     margin: 0.5rem 0;
 }
 

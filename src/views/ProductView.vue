@@ -202,7 +202,7 @@ export default {
 .product-background {
   padding-top: 2rem;
   padding-bottom: 15rem;
-  background-color: var(--gray);
+  background-color: #e5e5e5;
 }
 
 .product-type {
@@ -218,25 +218,34 @@ export default {
 }
 
 .product {
-  box-shadow: 0 5px 15px #b6b6b6;
-  background-color: white;
+  box-shadow: 0 15px 25px rgb(95, 95, 95);
+  background-color: var(--dark-gr);
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 2rem 2.5rem;
   border-radius: 5px;
   max-width: 20rem;
 }
 
 .product-img {
-  margin-bottom: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
   border-radius: 8px;
 }
 
 .product-name {
   font-size: 1.3rem;
-  color: var(--dark-gr);
+  color: white;
+}
+
+.product-info .divider {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.product-info p {
+  color: white;
 }
 
 .mat-container {
@@ -244,7 +253,8 @@ export default {
   grid-auto-flow: column;
   column-gap: 5px;
   justify-content: start;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 8px;
 }
 
 .mat-container span {

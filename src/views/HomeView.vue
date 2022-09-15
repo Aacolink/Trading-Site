@@ -29,8 +29,6 @@
             >To offer our customers products with superior quality and
             value.</span
           >
-          <br />
-          <br />
           Helping Businesses Grow By Encouragement, Strategies, Mentoring &amp;
           Leadership Development. Strengthen Businesses To Become Healthy &amp;
           Effective.
@@ -52,11 +50,8 @@
           >
           to US companies using advanced technology developed and reliable
           quality through close collaboration with our customers and other
-          supply chain partners.
-          <br />
-          <br />
-          Establish the stable and long term cross boarder partnership as a
-          family team.
+          supply chain partners. Establish the stable and long term cross
+          boarder partnership as a family team.
         </p>
       </div>
     </section>
