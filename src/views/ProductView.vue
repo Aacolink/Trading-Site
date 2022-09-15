@@ -335,6 +335,10 @@ export default {
     grid-template-columns: repeat(3, auto);
     gap: 30px;
   }
+
+  #type-select {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
