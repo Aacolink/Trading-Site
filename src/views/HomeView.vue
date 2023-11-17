@@ -2,9 +2,6 @@
   <div id="home">
     <div id="hero">
       <div id="hero-content-container">
-        <!-- <h1>
-          Simplify your process of trading and bring your product worldwide
-        </h1> -->
         <h1>
           <span class="keyword">Simpliticy </span> and true international
           <span class="hero-title keyword">connection </span> is here
